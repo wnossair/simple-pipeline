@@ -1,0 +1,200 @@
+{"event_type": "trade", "symbol": "AAPL", "timestamp": "2025-03-21T00:14:41.179072", "trade": {"price": 174.25, "size": 899}}
+{"event_type": "quote", "symbol": "AAPL", "timestamp": "2025-03-21T00:27:52.704295", "quote": {"bid": 171.88, "ask": 172.37, "volume": 8703}}
+{"event_type": "trade", "symbol": "GOOG", "timestamp": "2025-03-21T00:41:13.276494", "trade": {"price": 138.8, "size": 512}}
+{"event_type": "trade", "symbol": "TSLA", "timestamp": "2025-03-21T00:59:17.203233", "trade": {"price": 694.96, "size": 93}}
+{"event_type": "quote", "symbol": "MSFT", "timestamp": "2025-03-21T00:08:33.228098", "quote": {"bid": 301.01, "ask": 301.03, "volume": 4625}}
+{"event_type": "trade", "symbol": "GOOG", "timestamp": "2025-03-21T00:25:41.496713", "trade": {"price": 138.89, "size": 911}}
+{"event_type": "trade", "symbol": "AAPL", "timestamp": "2025-03-21T00:28:10.993634", "trade": {"price": 172.05, "size": 371}}
+{"event_type": "quote", "symbol": "TSLA", "timestamp": "2025-03-21T00:36:40.687076", "quote": {"bid": 707.72, "ask": 707.79, "volume": 5439}}
+{"event_type": "quote", "symbol": "TSLA", "timestamp": "2025-03-21T00:10:07.817413", "quote": {"bid": 710.31, "ask": 710.35, "volume": 9116}}
+{"event_type": "quote", "symbol": "AAPL", "timestamp": "2025-03-21T00:19:56.391357", "quote": {"bid": 176.1, "ask": 176.4, "volume": 3879}}
+{"event_type": "quote", "symbol": "TSLA", "timestamp": "2025-03-21T00:37:18.104165", "quote": {"bid": 692.11, "ask": 692.5, "volume": 4224}}
+{"event_type": "quote", "symbol": "GOOG", "timestamp": "2025-03-21T00:05:16.325224", "quote": {"bid": 141.66, "ask": 142.16, "volume": 1490}}
+{"event_type": "quote", "symbol": "GOOG", "timestamp": "2025-03-21T00:41:37.559216", "quote": {"bid": 142.24, "ask": 142.69, "volume": 4673}}
+{"event_type": "trade", "symbol": "AAPL", "timestamp": "2025-03-21T00:00:33.991117", "trade": {"price": 176.13, "size": 560}}
+{"event_type": "trade", "symbol": "TSLA", "timestamp": "2025-03-21T00:20:45.747759", "trade": {"price": 692.26, "size": 538}}
+{"event_type": "quote", "symbol": "GOOG", "timestamp": "2025-03-21T00:47:36.239719", "quote": {"bid": 140.54, "ask": 140.85, "volume": 8206}}
+{"event_type": "quote", "symbol": "AAPL", "timestamp": "2025-03-21T00:01:10.117590", "quote": {"bid": 177.33, "ask": 177.63, "volume": 4956}}
+{"event_type": "trade", "symbol": "AAPL", "timestamp": "2025-03-21T00:00:42.370469", "trade": {"price": 177.4, "size": 30}}
+{"event_type": "trade", "symbol": "TSLA", "timestamp": "2025-03-21T00:38:37.077258", "trade": {"price": 692.43, "size": 815}}
+{"event_type": "trade", "symbol": "GOOG", "timestamp": "2025-03-21T00:39:28.302410", "trade": {"price": 140.84, "size": 406}}
+{"event_type": "trade", "symbol": "TSLA", "timestamp": "2025-03-21T00:33:21.902808", "trade": {"price": 692.22, "size": 250}}
+{"event_type": "trade", "symbol": "GOOG", "timestamp": "2025-03-21T00:55:19.365278", "trade": {"price": 140.61, "size": 708}}
+{"event_type": "quote", "symbol": "AAPL", "timestamp": "2025-03-21T00:12:15.569455", "quote": {"bid": 178.24, "ask": 178.3, "volume": 5587}}
+{"event_type": "quote", "symbol": "GOOG", "timestamp": "2025-03-21T00:27:58.612449", "quote": {"bid": 142.73, "ask": 143.04, "volume": 4999}}
+{"event_type": "quote", "symbol": "GOOG", "timestamp": "2025-03-21T00:51:26.697766", "quote": {"bid": 138.81, "ask": 138.91, "volume": 7667}}
+{"event_type": "trade", "symbol": "TSLA", "timestamp": "2025-03-21T00:42:52.059350", "trade": {"price": 692.29, "size": 515}}
+{"event_type": "quote", "symbol": "AAPL", "timestamp": "2025-03-21T00:32:44.071980", "quote": {"bid": 171.67, "ask": 171.79, "volume": 235}}
+{"event_type": "quote", "symbol": "MSFT", "timestamp": "2025-03-21T00:20:08.920778", "quote": {"bid": 302.95, "ask": 303.06, "volume": 8324}}
+{"event_type": "quote", "symbol": "GOOG", "timestamp": "2025-03-21T00:47:16.227635", "quote": {"bid": 138.91, "ask": 138.92, "volume": 8982}}
+{"event_type": "trade", "symbol": "GOOG", "timestamp": "2025-03-21T00:39:43.301586", "trade": {"price": 138.92, "size": 638}}
+{"event_type": "trade", "symbol": "MSFT", "timestamp": "2025-03-21T00:52:13.034684", "trade": {"price": 302.99, "size": 40}}
+{"event_type": "quote", "symbol": "MSFT", "timestamp": "2025-03-21T00:29:57.720525", "quote": {"bid": 303.0, "ask": 303.36, "volume": 4374}}
+{"event_type": "trade", "symbol": "AAPL", "timestamp": "2025-03-21T00:26:17.146914", "trade": {"price": 171.73, "size": 397}}
+{"event_type": "trade", "symbol": "AAPL", "timestamp": "2025-03-21T00:06:34.096134", "trade": {"price": 171.7, "size": 831}}
+{"event_type": "trade", "symbol": "MSFT", "timestamp": "2025-03-21T00:17:11.400152", "trade": {"price": 303.21, "size": 144}}
+{"event_type": "trade", "symbol": "TSLA", "timestamp": "2025-03-21T00:52:14.556047", "trade": {"price": 692.29, "size": 264}}
+{"event_type": "quote", "symbol": "GOOG", "timestamp": "2025-03-21T00:39:41.126542", "quote": {"bid": 140.08, "ask": 140.1, "volume": 1589}}
+{"event_type": "quote", "symbol": "TSLA", "timestamp": "2025-03-21T00:54:00.027003", "quote": {"bid": 699.16, "ask": 699.21, "volume": 3963}}
+{"event_type": "quote", "symbol": "TSLA", "timestamp": "2025-03-21T00:03:20.728459", "quote": {"bid": 704.93, "ask": 705.13, "volume": 4528}}
+{"event_type": "quote", "symbol": "AAPL", "timestamp": "2025-03-21T00:25:40.285874", "quote": {"bid": 174.59, "ask": 174.68, "volume": 6837}}
+{"event_type": "quote", "symbol": "GOOG", "timestamp": "2025-03-21T00:39:38.507650", "quote": {"bid": 137.62, "ask": 138.08, "volume": 8587}}
+{"event_type": "quote", "symbol": "TSLA", "timestamp": "2025-03-21T00:54:20.137794", "quote": {"bid": 713.36, "ask": 713.84, "volume": 8204}}
+{"event_type": "trade", "symbol": "GOOG", "timestamp": "2025-03-21T00:28:12.577049", "trade": {"price": 137.93, "size": 960}}
+{"event_type": "trade", "symbol": "AAPL", "timestamp": "2025-03-21T00:44:26.004912", "trade": {"price": 174.62, "size": 551}}
+{"event_type": "trade", "symbol": "MSFT", "timestamp": "2025-03-21T00:15:27.866038", "trade": {"price": 303.21, "size": 230}}
+{"event_type": "quote", "symbol": "AAPL", "timestamp": "2025-03-21T00:34:38.434179", "quote": {"bid": 175.98, "ask": 176.24, "volume": 1672}}
+{"event_type": "trade", "symbol": "MSFT", "timestamp": "2025-03-21T00:44:17.163592", "trade": {"price": 303.26, "size": 469}}
+{"event_type": "quote", "symbol": "AAPL", "timestamp": "2025-03-21T00:44:14.201020", "quote": {"bid": 172.57, "ask": 172.84, "volume": 2422}}
+{"event_type": "trade", "symbol": "AAPL", "timestamp": "2025-03-21T00:58:40.266456", "trade": {"price": 172.69, "size": 268}}
+{"event_type": "trade", "symbol": "MSFT", "timestamp": "2025-03-21T00:13:16.596609", "trade": {"price": 303.06, "size": 372}}
+{"event_type": "trade", "symbol": "GOOG", "timestamp": "2025-03-21T00:28:40.742659", "trade": {"price": 137.93, "size": 281}}
+{"event_type": "trade", "symbol": "AAPL", "timestamp": "2025-03-21T00:31:50.347756", "trade": {"price": 172.7, "size": 376}}
+{"event_type": "trade", "symbol": "MSFT", "timestamp": "2025-03-21T00:04:14.628147", "trade": {"price": 303.32, "size": 243}}
+{"event_type": "trade", "symbol": "GOOG", "timestamp": "2025-03-21T00:19:47.592992", "trade": {"price": 137.66, "size": 22}}
+{"event_type": "trade", "symbol": "TSLA", "timestamp": "2025-03-21T00:40:34.708290", "trade": {"price": 713.53, "size": 290}}
+{"event_type": "quote", "symbol": "AAPL", "timestamp": "2025-03-21T00:07:45.105688", "quote": {"bid": 174.03, "ask": 174.33, "volume": 6561}}
+{"event_type": "trade", "symbol": "GOOG", "timestamp": "2025-03-21T00:33:37.404074", "trade": {"price": 137.75, "size": 806}}
+{"event_type": "trade", "symbol": "GOOG", "timestamp": "2025-03-21T00:55:13.012016", "trade": {"price": 138.04, "size": 48}}
+{"event_type": "quote", "symbol": "AAPL", "timestamp": "2025-03-21T00:58:54.496377", "quote": {"bid": 176.23, "ask": 176.66, "volume": 5238}}
+{"event_type": "quote", "symbol": "MSFT", "timestamp": "2025-03-21T00:48:46.149999", "quote": {"bid": 298.42, "ask": 298.74, "volume": 2970}}
+{"event_type": "quote", "symbol": "AAPL", "timestamp": "2025-03-21T00:49:14.324274", "quote": {"bid": 177.36, "ask": 177.82, "volume": 897}}
+{"event_type": "quote", "symbol": "MSFT", "timestamp": "2025-03-21T00:21:53.527618", "quote": {"bid": 295.07, "ask": 295.34, "volume": 2845}}
+{"event_type": "trade", "symbol": "MSFT", "timestamp": "2025-03-21T00:50:29.912579", "trade": {"price": 295.09, "size": 203}}
+{"event_type": "trade", "symbol": "MSFT", "timestamp": "2025-03-21T00:16:07.663856", "trade": {"price": 295.09, "size": 342}}
+{"event_type": "quote", "symbol": "AAPL", "timestamp": "2025-03-21T00:44:49.438516", "quote": {"bid": 171.59, "ask": 171.76, "volume": 2783}}
+{"event_type": "trade", "symbol": "MSFT", "timestamp": "2025-03-21T00:40:44.061632", "trade": {"price": 295.07, "size": 968}}
+{"event_type": "quote", "symbol": "AAPL", "timestamp": "2025-03-21T00:18:29.584196", "quote": {"bid": 175.91, "ask": 176.08, "volume": 2070}}
+{"event_type": "trade", "symbol": "GOOG", "timestamp": "2025-03-21T00:55:07.727330", "trade": {"price": 137.7, "size": 620}}
+{"event_type": "quote", "symbol": "AAPL", "timestamp": "2025-03-21T00:32:52.985302", "quote": {"bid": 177.02, "ask": 177.18, "volume": 9207}}
+{"event_type": "quote", "symbol": "TSLA", "timestamp": "2025-03-21T00:25:07.870563", "quote": {"bid": 693.16, "ask": 693.55, "volume": 431}}
+{"event_type": "quote", "symbol": "MSFT", "timestamp": "2025-03-21T00:49:10.860769", "quote": {"bid": 296.5, "ask": 296.7, "volume": 7048}}
+{"event_type": "quote", "symbol": "TSLA", "timestamp": "2025-03-21T00:09:32.804065", "quote": {"bid": 707.99, "ask": 708.14, "volume": 6582}}
+{"event_type": "quote", "symbol": "AAPL", "timestamp": "2025-03-21T00:03:18.065329", "quote": {"bid": 176.16, "ask": 176.41, "volume": 9385}}
+{"event_type": "quote", "symbol": "GOOG", "timestamp": "2025-03-21T00:07:48.985941", "quote": {"bid": 138.83, "ask": 139.2, "volume": 5206}}
+{"event_type": "trade", "symbol": "AAPL", "timestamp": "2025-03-21T00:20:18.814325", "trade": {"price": 176.27, "size": 510}}
+{"event_type": "quote", "symbol": "GOOG", "timestamp": "2025-03-21T00:58:22.613383", "quote": {"bid": 142.6, "ask": 142.63, "volume": 8511}}
+{"event_type": "quote", "symbol": "TSLA", "timestamp": "2025-03-21T00:55:15.349687", "quote": {"bid": 707.28, "ask": 707.78, "volume": 6923}}
+{"event_type": "trade", "symbol": "TSLA", "timestamp": "2025-03-21T00:35:04.890219", "trade": {"price": 707.62, "size": 53}}
+{"event_type": "trade", "symbol": "MSFT", "timestamp": "2025-03-21T00:38:06.825605", "trade": {"price": 296.69, "size": 329}}
+{"event_type": "trade", "symbol": "AAPL", "timestamp": "2025-03-21T00:16:50.452343", "trade": {"price": 176.3, "size": 49}}
+{"event_type": "quote", "symbol": "MSFT", "timestamp": "2025-03-21T00:21:16.053816", "quote": {"bid": 304.44, "ask": 304.48, "volume": 2283}}
+{"event_type": "trade", "symbol": "AAPL", "timestamp": "2025-03-21T00:38:08.807230", "trade": {"price": 176.28, "size": 772}}
+{"event_type": "quote", "symbol": "AAPL", "timestamp": "2025-03-21T00:10:29.500293", "quote": {"bid": 175.29, "ask": 175.51, "volume": 7349}}
+{"event_type": "quote", "symbol": "TSLA", "timestamp": "2025-03-21T00:38:13.536801", "quote": {"bid": 690.98, "ask": 691.21, "volume": 4906}}
+{"event_type": "quote", "symbol": "AAPL", "timestamp": "2025-03-21T00:06:21.450425", "quote": {"bid": 173.58, "ask": 173.65, "volume": 1058}}
+{"event_type": "quote", "symbol": "TSLA", "timestamp": "2025-03-21T00:04:50.940874", "quote": {"bid": 690.43, "ask": 690.84, "volume": 5238}}
+{"event_type": "trade", "symbol": "AAPL", "timestamp": "2025-03-21T00:59:02.293087", "trade": {"price": 173.59, "size": 525}}
+{"event_type": "trade", "symbol": "AAPL", "timestamp": "2025-03-21T00:08:59.935569", "trade": {"price": 173.59, "size": 423}}
+{"event_type": "quote", "symbol": "AAPL", "timestamp": "2025-03-21T00:26:08.043518", "quote": {"bid": 172.87, "ask": 173.1, "volume": 1403}}
+{"event_type": "quote", "symbol": "MSFT", "timestamp": "2025-03-21T00:59:05.985189", "quote": {"bid": 302.81, "ask": 303.06, "volume": 6193}}
+{"event_type": "trade", "symbol": "MSFT", "timestamp": "2025-03-21T00:27:59.160558", "trade": {"price": 303.02, "size": 519}}
+{"event_type": "quote", "symbol": "AAPL", "timestamp": "2025-03-21T00:13:57.557469", "quote": {"bid": 176.12, "ask": 176.47, "volume": 5070}}
+{"event_type": "trade", "symbol": "AAPL", "timestamp": "2025-03-21T00:09:38.727530", "trade": {"price": 176.18, "size": 983}}
+{"event_type": "trade", "symbol": "TSLA", "timestamp": "2025-03-21T00:19:59.010107", "trade": {"price": 690.67, "size": 690}}
+{"event_type": "quote", "symbol": "TSLA", "timestamp": "2025-03-21T00:56:32.958853", "quote": {"bid": 711.26, "ask": 711.48, "volume": 9665}}
+{"event_type": "trade", "symbol": "MSFT", "timestamp": "2025-03-21T00:19:38.313960", "trade": {"price": 303.02, "size": 951}}
+{"event_type": "trade", "symbol": "AAPL", "timestamp": "2025-03-21T00:45:45.451848", "trade": {"price": 176.13, "size": 784}}
+{"event_type": "quote", "symbol": "MSFT", "timestamp": "2025-03-21T00:01:21.577506", "quote": {"bid": 304.62, "ask": 305.11, "volume": 8110}}
+{"event_type": "trade", "symbol": "AAPL", "timestamp": "2025-03-21T00:53:56.620606", "trade": {"price": 176.21, "size": 160}}
+{"event_type": "trade", "symbol": "MSFT", "timestamp": "2025-03-21T00:34:20.864380", "trade": {"price": 304.76, "size": 863}}
+{"event_type": "trade", "symbol": "MSFT", "timestamp": "2025-03-21T00:07:08.237904", "trade": {"price": 304.65, "size": 854}}
+{"event_type": "trade", "symbol": "MSFT", "timestamp": "2025-03-21T00:07:24.035614", "trade": {"price": 305.01, "size": 684}}
+{"event_type": "quote", "symbol": "TSLA", "timestamp": "2025-03-21T00:06:40.295076", "quote": {"bid": 710.2, "ask": 710.35, "volume": 782}}
+{"event_type": "trade", "symbol": "GOOG", "timestamp": "2025-03-21T00:28:30.066357", "trade": {"price": 142.62, "size": 943}}
+{"event_type": "quote", "symbol": "TSLA", "timestamp": "2025-03-21T00:18:14.590818", "quote": {"bid": 688.85, "ask": 689.08, "volume": 5186}}
+{"event_type": "quote", "symbol": "GOOG", "timestamp": "2025-03-21T00:57:08.592022", "quote": {"bid": 139.8, "ask": 140.17, "volume": 9266}}
+{"event_type": "trade", "symbol": "AAPL", "timestamp": "2025-03-21T00:16:10.713286", "trade": {"price": 176.47, "size": 616}}
+{"event_type": "quote", "symbol": "AAPL", "timestamp": "2025-03-21T00:45:50.806139", "quote": {"bid": 176.95, "ask": 177.25, "volume": 427}}
+{"event_type": "quote", "symbol": "AAPL", "timestamp": "2025-03-21T00:29:47.273617", "quote": {"bid": 175.27, "ask": 175.33, "volume": 484}}
+{"event_type": "trade", "symbol": "MSFT", "timestamp": "2025-03-21T00:10:05.661336", "trade": {"price": 304.84, "size": 683}}
+{"event_type": "trade", "symbol": "AAPL", "timestamp": "2025-03-21T00:47:25.536802", "trade": {"price": 175.29, "size": 979}}
+{"event_type": "quote", "symbol": "AAPL", "timestamp": "2025-03-21T00:20:05.751202", "quote": {"bid": 175.21, "ask": 175.54, "volume": 9379}}
+{"event_type": "trade", "symbol": "MSFT", "timestamp": "2025-03-21T00:24:10.315461", "trade": {"price": 304.77, "size": 142}}
+{"event_type": "trade", "symbol": "MSFT", "timestamp": "2025-03-21T00:02:33.728968", "trade": {"price": 304.77, "size": 755}}
+{"event_type": "quote", "symbol": "TSLA", "timestamp": "2025-03-21T00:44:59.260495", "quote": {"bid": 692.89, "ask": 693.19, "volume": 1063}}
+{"event_type": "trade", "symbol": "GOOG", "timestamp": "2025-03-21T00:10:06.409472", "trade": {"price": 139.82, "size": 49}}
+{"event_type": "trade", "symbol": "GOOG", "timestamp": "2025-03-21T00:25:12.204931", "trade": {"price": 139.87, "size": 253}}
+{"event_type": "quote", "symbol": "MSFT", "timestamp": "2025-03-21T00:15:56.297608", "quote": {"bid": 299.48, "ask": 299.7, "volume": 4461}}
+{"event_type": "trade", "symbol": "TSLA", "timestamp": "2025-03-21T00:18:40.015620", "trade": {"price": 693.05, "size": 236}}
+{"event_type": "quote", "symbol": "GOOG", "timestamp": "2025-03-21T00:16:28.656011", "quote": {"bid": 140.8, "ask": 141.07, "volume": 4900}}
+{"event_type": "trade", "symbol": "MSFT", "timestamp": "2025-03-21T00:01:07.797935", "trade": {"price": 299.6, "size": 18}}
+{"event_type": "trade", "symbol": "GOOG", "timestamp": "2025-03-21T00:11:45.870118", "trade": {"price": 141.07, "size": 494}}
+{"event_type": "quote", "symbol": "TSLA", "timestamp": "2025-03-21T00:19:16.241276", "quote": {"bid": 693.39, "ask": 693.58, "volume": 9954}}
+{"event_type": "quote", "symbol": "MSFT", "timestamp": "2025-03-21T00:18:00.346041", "quote": {"bid": 295.16, "ask": 295.31, "volume": 5112}}
+{"event_type": "quote", "symbol": "AAPL", "timestamp": "2025-03-21T00:48:48.539536", "quote": {"bid": 176.37, "ask": 176.42, "volume": 7772}}
+{"event_type": "quote", "symbol": "TSLA", "timestamp": "2025-03-21T00:16:52.276448", "quote": {"bid": 701.18, "ask": 701.23, "volume": 5063}}
+{"event_type": "quote", "symbol": "AAPL", "timestamp": "2025-03-21T00:11:29.882322", "quote": {"bid": 173.69, "ask": 173.75, "volume": 3024}}
+{"event_type": "trade", "symbol": "MSFT", "timestamp": "2025-03-21T00:38:22.832346", "trade": {"price": 295.25, "size": 623}}
+{"event_type": "quote", "symbol": "TSLA", "timestamp": "2025-03-21T00:39:32.656674", "quote": {"bid": 688.23, "ask": 688.59, "volume": 4571}}
+{"event_type": "trade", "symbol": "MSFT", "timestamp": "2025-03-21T00:22:25.781366", "trade": {"price": 295.2, "size": 357}}
+{"event_type": "quote", "symbol": "MSFT", "timestamp": "2025-03-21T00:19:47.770183", "quote": {"bid": 305.16, "ask": 305.4, "volume": 9372}}
+{"event_type": "trade", "symbol": "MSFT", "timestamp": "2025-03-21T00:37:37.278153", "trade": {"price": 305.36, "size": 806}}
+{"event_type": "trade", "symbol": "GOOG", "timestamp": "2025-03-21T00:47:46.034100", "trade": {"price": 140.88, "size": 967}}
+{"event_type": "trade", "symbol": "MSFT", "timestamp": "2025-03-21T00:33:34.064792", "trade": {"price": 305.31, "size": 294}}
+{"event_type": "quote", "symbol": "TSLA", "timestamp": "2025-03-21T00:29:20.885387", "quote": {"bid": 699.58, "ask": 700.08, "volume": 1284}}
+{"event_type": "trade", "symbol": "MSFT", "timestamp": "2025-03-21T00:17:01.109226", "trade": {"price": 305.2, "size": 343}}
+{"event_type": "trade", "symbol": "TSLA", "timestamp": "2025-03-21T00:15:20.201044", "trade": {"price": 700.06, "size": 367}}
+{"event_type": "trade", "symbol": "AAPL", "timestamp": "2025-03-21T00:01:28.661020", "trade": {"price": 173.69, "size": 896}}
+{"event_type": "quote", "symbol": "TSLA", "timestamp": "2025-03-21T00:06:56.788252", "quote": {"bid": 703.57, "ask": 703.79, "volume": 8172}}
+{"event_type": "quote", "symbol": "MSFT", "timestamp": "2025-03-21T00:19:37.147203", "quote": {"bid": 304.53, "ask": 304.83, "volume": 3641}}
+{"event_type": "quote", "symbol": "MSFT", "timestamp": "2025-03-21T00:44:11.068899", "quote": {"bid": 298.81, "ask": 299.21, "volume": 2459}}
+{"event_type": "quote", "symbol": "MSFT", "timestamp": "2025-03-21T00:44:11.404377", "quote": {"bid": 297.63, "ask": 297.67, "volume": 8633}}
+{"event_type": "quote", "symbol": "AAPL", "timestamp": "2025-03-21T00:51:51.759106", "quote": {"bid": 178.29, "ask": 178.38, "volume": 9160}}
+{"event_type": "trade", "symbol": "MSFT", "timestamp": "2025-03-21T00:40:23.273645", "trade": {"price": 297.65, "size": 284}}
+{"event_type": "trade", "symbol": "GOOG", "timestamp": "2025-03-21T00:33:35.534412", "trade": {"price": 140.92, "size": 702}}
+{"event_type": "quote", "symbol": "TSLA", "timestamp": "2025-03-21T00:02:45.076816", "quote": {"bid": 706.1, "ask": 706.36, "volume": 4571}}
+{"event_type": "trade", "symbol": "GOOG", "timestamp": "2025-03-21T00:17:37.718256", "trade": {"price": 141.01, "size": 444}}
+{"event_type": "quote", "symbol": "GOOG", "timestamp": "2025-03-21T00:14:53.982218", "quote": {"bid": 139.55, "ask": 139.77, "volume": 7861}}
+{"event_type": "quote", "symbol": "TSLA", "timestamp": "2025-03-21T00:20:50.926842", "quote": {"bid": 699.97, "ask": 700.09, "volume": 7266}}
+{"event_type": "trade", "symbol": "MSFT", "timestamp": "2025-03-21T00:04:47.837225", "trade": {"price": 297.65, "size": 363}}
+{"event_type": "quote", "symbol": "GOOG", "timestamp": "2025-03-21T00:41:05.954550", "quote": {"bid": 142.63, "ask": 142.88, "volume": 7062}}
+{"event_type": "quote", "symbol": "AAPL", "timestamp": "2025-03-21T00:17:17.396952", "quote": {"bid": 176.11, "ask": 176.52, "volume": 6016}}
+{"event_type": "trade", "symbol": "GOOG", "timestamp": "2025-03-21T00:20:00.732082", "trade": {"price": 142.88, "size": 275}}
+{"event_type": "trade", "symbol": "MSFT", "timestamp": "2025-03-21T00:53:29.573792", "trade": {"price": 297.66, "size": 820}}
+{"event_type": "trade", "symbol": "TSLA", "timestamp": "2025-03-21T00:53:37.133385", "trade": {"price": 700.06, "size": 300}}
+{"event_type": "trade", "symbol": "GOOG", "timestamp": "2025-03-21T00:40:37.831955", "trade": {"price": 142.75, "size": 545}}
+{"event_type": "trade", "symbol": "MSFT", "timestamp": "2025-03-21T00:03:46.162549", "trade": {"price": 297.67, "size": 877}}
+{"event_type": "trade", "symbol": "AAPL", "timestamp": "2025-03-21T00:24:59.305733", "trade": {"price": 176.49, "size": 334}}
+{"event_type": "quote", "symbol": "GOOG", "timestamp": "2025-03-21T00:41:56.205577", "quote": {"bid": 138.63, "ask": 138.7, "volume": 1340}}
+{"event_type": "quote", "symbol": "TSLA", "timestamp": "2025-03-21T00:03:24.408529", "quote": {"bid": 699.08, "ask": 699.26, "volume": 4712}}
+{"event_type": "quote", "symbol": "AAPL", "timestamp": "2025-03-21T00:31:30.149306", "quote": {"bid": 176.37, "ask": 176.43, "volume": 5101}}
+{"event_type": "quote", "symbol": "TSLA", "timestamp": "2025-03-21T00:39:23.465152", "quote": {"bid": 706.96, "ask": 707.22, "volume": 2505}}
+{"event_type": "trade", "symbol": "MSFT", "timestamp": "2025-03-21T00:09:04.661523", "trade": {"price": 297.64, "size": 475}}
+{"event_type": "quote", "symbol": "AAPL", "timestamp": "2025-03-21T00:35:47.131359", "quote": {"bid": 172.62, "ask": 172.84, "volume": 8974}}
+{"event_type": "trade", "symbol": "AAPL", "timestamp": "2025-03-21T00:03:25.756486", "trade": {"price": 172.64, "size": 856}}
+{"event_type": "quote", "symbol": "MSFT", "timestamp": "2025-03-21T00:14:29.185295", "quote": {"bid": 296.4, "ask": 296.44, "volume": 787}}
+{"event_type": "quote", "symbol": "GOOG", "timestamp": "2025-03-21T00:38:32.161271", "quote": {"bid": 142.39, "ask": 142.67, "volume": 1151}}
+{"event_type": "trade", "symbol": "AAPL", "timestamp": "2025-03-21T00:19:13.286450", "trade": {"price": 172.81, "size": 3}}
+{"event_type": "quote", "symbol": "MSFT", "timestamp": "2025-03-21T00:24:15.053588", "quote": {"bid": 297.17, "ask": 297.66, "volume": 2054}}
+{"event_type": "quote", "symbol": "GOOG", "timestamp": "2025-03-21T00:46:37.145795", "quote": {"bid": 141.08, "ask": 141.41, "volume": 3381}}
+{"event_type": "quote", "symbol": "MSFT", "timestamp": "2025-03-21T00:24:11.445030", "quote": {"bid": 300.84, "ask": 301.34, "volume": 521}}
+{"event_type": "trade", "symbol": "MSFT", "timestamp": "2025-03-21T00:01:49.750746", "trade": {"price": 301.22, "size": 855}}
+{"event_type": "quote", "symbol": "TSLA", "timestamp": "2025-03-21T00:03:50.982894", "quote": {"bid": 711.05, "ask": 711.48, "volume": 4254}}
+{"event_type": "quote", "symbol": "AAPL", "timestamp": "2025-03-21T00:33:48.000551", "quote": {"bid": 171.58, "ask": 172.01, "volume": 1041}}
+{"event_type": "trade", "symbol": "TSLA", "timestamp": "2025-03-21T00:35:46.425250", "trade": {"price": 711.2, "size": 363}}
+{"event_type": "trade", "symbol": "MSFT", "timestamp": "2025-03-21T00:12:23.976204", "trade": {"price": 300.91, "size": 3}}
+{"event_type": "quote", "symbol": "TSLA", "timestamp": "2025-03-21T00:13:48.238360", "quote": {"bid": 707.82, "ask": 708.25, "volume": 1689}}
+{"event_type": "trade", "symbol": "GOOG", "timestamp": "2025-03-21T00:27:40.898298", "trade": {"price": 141.3, "size": 350}}
+{"event_type": "trade", "symbol": "TSLA", "timestamp": "2025-03-21T00:21:46.728092", "trade": {"price": 708.08, "size": 472}}
+{"event_type": "quote", "symbol": "MSFT", "timestamp": "2025-03-21T00:39:27.009646", "quote": {"bid": 299.76, "ask": 300.21, "volume": 2785}}
+{"event_type": "quote", "symbol": "MSFT", "timestamp": "2025-03-21T00:17:24.996832", "quote": {"bid": 299.81, "ask": 300.13, "volume": 4597}}
+{"event_type": "quote", "symbol": "AAPL", "timestamp": "2025-03-21T00:20:24.286804", "quote": {"bid": 175.89, "ask": 175.99, "volume": 8083}}
+{"event_type": "quote", "symbol": "GOOG", "timestamp": "2025-03-21T00:44:06.968970", "quote": {"bid": 140.79, "ask": 140.92, "volume": 1856}}
+{"event_type": "quote", "symbol": "TSLA", "timestamp": "2025-03-21T00:34:40.004236", "quote": {"bid": 690.29, "ask": 690.38, "volume": 3139}}
+{"event_type": "trade", "symbol": "AAPL", "timestamp": "2025-03-21T00:33:27.674249", "trade": {"price": 175.97, "size": 732}}
+{"event_type": "trade", "symbol": "MSFT", "timestamp": "2025-03-21T00:49:43.801702", "trade": {"price": 299.84, "size": 578}}
+{"event_type": "quote", "symbol": "TSLA", "timestamp": "2025-03-21T00:02:46.980509", "quote": {"bid": 687.69, "ask": 687.73, "volume": 5905}}
+{"event_type": "trade", "symbol": "MSFT", "timestamp": "2025-03-21T00:34:52.179982", "trade": {"price": 299.83, "size": 730}}
+{"event_type": "trade", "symbol": "AAPL", "timestamp": "2025-03-21T00:27:25.149432", "trade": {"price": 175.99, "size": 273}}
+{"event_type": "trade", "symbol": "TSLA", "timestamp": "2025-03-21T00:46:11.855167", "trade": {"price": 687.7, "size": 986}}
+{"event_type": "quote", "symbol": "TSLA", "timestamp": "2025-03-21T00:37:11.950715", "quote": {"bid": 712.91, "ask": 713.36, "volume": 4472}}
+{"event_type": "trade", "symbol": "TSLA", "timestamp": "2025-03-21T00:29:16.369367", "trade": {"price": 713.15, "size": 179}}
+{"event_type": "trade", "symbol": "AAPL", "timestamp": "2025-03-21T00:20:42.603919", "trade": {"price": 175.89, "size": 514}}
+{"event_type": "quote", "symbol": "AAPL", "timestamp": "2025-03-21T00:21:09.016023", "quote": {"bid": 172.6, "ask": 172.8, "volume": 5746}}
+{"event_type": "trade", "symbol": "TSLA", "timestamp": "2025-03-21T00:45:47.948190", "trade": {"price": 712.98, "size": 932}}
+{"event_type": "trade", "symbol": "MSFT", "timestamp": "2025-03-21T00:00:21.556602", "trade": {"price": 300.05, "size": 486}}
+{"event_type": "trade", "symbol": "GOOG", "timestamp": "2025-03-21T00:29:17.304122", "trade": {"price": 140.86, "size": 639}}
+{"event_type": "trade", "symbol": "AAPL", "timestamp": "BAD_TIMESTAMP", "trade": {"price": 179.55, "size": 100}}
+{"event_type": "quote", "symbol": "AAPL", "timestamp": "2025-03-25T09:30:01", "quote": {"bid": -179.5, "ask": 179.6}}
+{"event_type": "trade", "symbol": "MSFT", "timestamp": "2025-03-25T09:30:01", "trade": {"price": "NaN", "size": 100}}
