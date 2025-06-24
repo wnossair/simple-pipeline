@@ -1,8 +1,11 @@
 # models.py
-from typing import Dict, Optional
+"""This module contains classes and functions for validating market data."""
+
 import datetime
 
 class MarketDataValidator:
+    """Class containing methods to validate different aspects of market data."""
+
     @staticmethod
     def validate_timestamp(timestamp: str) -> bool:
         """Validate timestamp format."""

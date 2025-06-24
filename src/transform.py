@@ -1,8 +1,19 @@
 # transform.py
+"""This module contains the Transformer class which is responsible for 
+translating trade and quote records from raw data structures into a flat, 
+structured format with validation."""
+
 from typing import Dict, List, Optional
 from models import MarketDataValidator
 
 class Transformer:
+    """Class to transform trade and quote records.
+    
+    This class provides methods to validate and convert trade and quote records 
+    from their raw input formats into a more structured format. It also logs any 
+    bad records encountered during the transformation process.
+    """
+
     def __init__(self, logger):
         self.logger = logger
         self.bad_records = []
@@ -18,7 +29,7 @@ class Transformer:
                     'record': str(trade)
                 })
                 return None
-                
+
             return {
                 'symbol': trade.get('symbol'),
                 'timestamp': trade.get('timestamp'),
@@ -39,7 +50,7 @@ class Transformer:
     def transform_quote(self, quote: Dict) -> Optional[Dict]:
         """Transform quote record into flat structure with validation."""
         try:
-            if not (MarketDataValidator.validate_price(quote['quote']['bid']) and 
+            if not (MarketDataValidator.validate_price(quote['quote']['bid']) and
                    MarketDataValidator.validate_price(quote['quote']['ask'])):
                 self.bad_records.append({
                     'file': quote.get('_file', 'unknown'),
@@ -48,7 +59,7 @@ class Transformer:
                     'record': str(quote)
                 })
                 return None
-                
+
             return {
                 'symbol': quote.get('symbol'),
                 'timestamp': quote.get('timestamp'),
