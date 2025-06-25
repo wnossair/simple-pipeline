@@ -17,6 +17,8 @@ def setup_logging(log_file: str) -> logging.Logger:
     Returns:
         logging.Logger: A configured logger instance.
     """
+    # Create the output directory if it doesn't exist
+    log_file.parent.mkdir(parents=True, exist_ok=True)
 
     logger = logging.getLogger(__name__)
     logger.setLevel(logging.INFO)
