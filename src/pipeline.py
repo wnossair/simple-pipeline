@@ -17,6 +17,9 @@ class MarketDataETL:
     """
 
     def __init__(self):
+        # Create the output directory if it doesn't exist
+        Config.OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+
         self.logger = setup_logging(Config.LOG_FILE)
         self.extractor = Extractor(self.logger)
         self.transformer = Transformer(self.logger)

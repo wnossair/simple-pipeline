@@ -12,5 +12,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY src/ ./src
 COPY data/ ./data
 
-# Command to run the application
-CMD [ "python", "-u", "src/pipeline.py" ]
+# Set the working directory to the source folder for the final command
+WORKDIR /app/src
+
+# Command to run the application from within the /app/src directory
+CMD [ "python", "-u", "pipeline.py" ]
