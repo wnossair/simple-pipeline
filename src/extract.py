@@ -1,72 +1,51 @@
 # extract.py
 """This module contains the Extractor class which is responsible for 
-extracting trade and quote events from JSONL files."""
+extracting and validating market data from JSONL files using Pydantic."""
 
-import json
-from typing import Dict, List, Tuple
+from typing import List, Tuple
 from pathlib import Path
-from models import MarketDataValidator
+from pydantic import ValidationError
+from models import MarketEvent # Import the Pydantic model
 
 class Extractor:
-    """Class to extract trade and quote events from JSONL files.
-    
-    This class reads a specified JSONL file, parses each line as a JSON object,
-    and categorizes the records into trades and quotes based on their event type. 
-    It also validates timestamps and logs any bad records encountered during extraction.
-    """
+    """Class to extract and validate market events from JSONL files using Pydantic."""
 
     def __init__(self, logger):
         self.logger = logger
         self.bad_records = []
 
-    def extract(self, file_path: Path) -> Tuple[List[Dict], List[Dict]]:
-        """Extract trade and quote events from JSONL file."""
+    def extract(self, file_path: Path) -> Tuple[List[MarketEvent], List[MarketEvent]]:
+        """
+        Extract and validate trade and quote events from a JSONL file.
+        Returns lists of validated Pydantic MarketEvent objects.
+        """
         trades = []
         quotes = []
 
         with open(file_path, 'r', encoding="utf-8") as f:
             for line_number, line in enumerate(f, 1):
                 try:
-                    record = json.loads(line.strip())
-                    if not isinstance(record, dict):
-                        raise ValueError("Record is not a valid JSON object")
+                    # Pydantic parses the JSON and runs all validators,
+                    # including the custom @model_validator.
+                    event = MarketEvent.model_validate_json(line)
 
-                    if record.get('event_type') == 'trade':
-                        if MarketDataValidator.validate_timestamp(record.get('timestamp')):
-                            record['_file'] = str(file_path)
-                            record['_line'] = line_number
-                            trades.append(record)
-                        else:
-                            self.bad_records.append({
-                                'file': str(file_path),
-                                'line': line_number,
-                                'error': 'Invalid timestamp',
-                                'record': line.strip()
-                            })
-                    elif record.get('event_type') == 'quote':
-                        if MarketDataValidator.validate_timestamp(record.get('timestamp')):
-                            record['_file'] = str(file_path)
-                            record['_line'] = line_number
-                            quotes.append(record)
-                        else:
-                            self.bad_records.append({
-                                'file': str(file_path),
-                                'line': line_number,
-                                'error': 'Invalid timestamp',
-                                'record': line.strip()
-                            })
-                    else:
-                        self.bad_records.append({
-                            'file': str(file_path),
-                            'line': line_number,
-                            'error': 'Unknown event_type',
-                            'record': line.strip()
-                        })
-                except json.JSONDecodeError:
+                    # FIX: Attach file and line info using direct attribute assignment
+                    event.source_file = str(file_path)
+                    event.source_line = line_number
+
+                    # The logic is now simpler: if validation passed, we just sort the event.
+                    # The @model_validator already guarantees the payload matches the type.
+                    if event.event_type == 'trade':
+                        trades.append(event)
+                    elif event.event_type == 'quote':
+                        quotes.append(event)
+
+                except (ValidationError, ValueError) as e:
+                    # Any validation error (from Pydantic or our custom validator) is caught here.
                     self.bad_records.append({
                         'file': str(file_path),
                         'line': line_number,
-                        'error': 'Invalid JSON',
+                        'error': str(e),
                         'record': line.strip()
                     })
 

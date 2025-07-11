@@ -1,83 +1,53 @@
 # transform.py
 """This module contains the Transformer class which is responsible for 
-translating trade and quote records from raw data structures into a flat, 
-structured format with validation."""
+translating validated Pydantic models into a flat, structured format for loading."""
 
-from typing import Dict, List, Optional
-from models import MarketDataValidator
+from typing import List, Dict
+from models import MarketEvent
 
 class Transformer:
-    """Class to transform trade and quote records.
-    
-    This class provides methods to validate and convert trade and quote records 
-    from their raw input formats into a more structured format. It also logs any 
-    bad records encountered during the transformation process.
-    """
+    """Class to transform validated MarketEvent Pydantic models into flat dictionaries."""
 
     def __init__(self, logger):
         self.logger = logger
-        self.bad_records = []
+        # No bad_records needed here anymore, as validation is done during extraction.
 
-    def transform_trade(self, trade: Dict) -> Optional[Dict]:
-        """Transform trade record into flat structure with validation."""
-        try:
-            if not MarketDataValidator.validate_price(trade['trade']['price']):
-                self.bad_records.append({
-                    'file': trade.get('_file', 'unknown'),
-                    'line': trade.get('_line', 'unknown'),
-                    'error': f"Invalid price: {trade['trade']['price']}",
-                    'record': str(trade)
-                })
-                return None
+    def transform_trade(self, trade_event: MarketEvent) -> Dict:
+        """Transforms a trade MarketEvent model into a flat dictionary."""
+        # The trade object is guaranteed by the extraction logic to exist and be valid.
+        flat_trade = {
+            'symbol': trade_event.symbol,
+            'timestamp': trade_event.timestamp.isoformat(),
+            'price': trade_event.trade.price,
+            'size': trade_event.trade.size,
+            'exchange': trade_event.trade.exchange or '',
+            'condition': trade_event.trade.condition or ''
+        }
+        return flat_trade
 
-            return {
-                'symbol': trade.get('symbol'),
-                'timestamp': trade.get('timestamp'),
-                'price': trade['trade']['price'],
-                'size': trade['trade'].get('size'),
-                'exchange': trade['trade'].get('exchange', ''),
-                'condition': trade['trade'].get('condition', '')
-            }
-        except (KeyError, TypeError) as e:
-            self.bad_records.append({
-                'file': trade.get('_file', 'unknown'),
-                'line': trade.get('_line', 'unknown'),
-                'error': f"Transformation error: {str(e)}",
-                'record': str(trade)
-            })
-            return None
+    def transform_quote(self, quote_event: MarketEvent) -> Dict:
+        """Transforms a quote MarketEvent model into a flat dictionary."""
+        # The quote object is guaranteed by the extraction logic to exist and be valid.
+        flat_quote = {
+            'symbol': quote_event.symbol,
+            'timestamp': quote_event.timestamp.isoformat(),
+            'bid': quote_event.quote.bid,
+            'ask': quote_event.quote.ask,
+            'exchange': quote_event.quote.exchange or ''
+        }
+        return flat_quote
 
-    def transform_quote(self, quote: Dict) -> Optional[Dict]:
-        """Transform quote record into flat structure with validation."""
-        try:
-            if not (MarketDataValidator.validate_price(quote['quote']['bid']) and
-                   MarketDataValidator.validate_price(quote['quote']['ask'])):
-                self.bad_records.append({
-                    'file': quote.get('_file', 'unknown'),
-                    'line': quote.get('_line', 'unknown'),
-                    'error': f"Invalid prices: bid={quote['quote']['bid']}, ask={quote['quote']['ask']}",
-                    'record': str(quote)
-                })
-                return None
+    def transform(
+            self,
+            trades: List[MarketEvent],
+            quotes: List[MarketEvent]
+            ) -> tuple[List[Dict], List[Dict]]:
 
-            return {
-                'symbol': quote.get('symbol'),
-                'timestamp': quote.get('timestamp'),
-                'bid': quote['quote']['bid'],
-                'ask': quote['quote']['ask'],
-                'exchange': quote['quote'].get('exchange', '')
-            }
-        except (KeyError, TypeError) as e:
-            self.bad_records.append({
-                'file': quote.get('_file', 'unknown'),
-                'line': quote.get('_line', 'unknown'),
-                'error': f"Transformation error: {str(e)}",
-                'record': str(quote)
-            })
-            return None
+        """Transforms lists of validated trade and quote events."""
+        transformed_trades = [self.transform_trade(t) for t in trades]
+        transformed_quotes = [self.transform_quote(q) for q in quotes]
 
-    def transform(self, trades: List[Dict], quotes: List[Dict]) -> tuple[List[Dict], List[Dict]]:
-        """Transform lists of trades and quotes."""
-        transformed_trades = [t for t in (self.transform_trade(t) for t in trades) if t]
-        transformed_quotes = [q for q in (self.transform_quote(q) for q in quotes) if q]
+        self.logger.info(
+            f"Transformed {len(transformed_trades)} trades and {len(transformed_quotes)} quotes.")
+
         return transformed_trades, transformed_quotes

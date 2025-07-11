@@ -35,8 +35,8 @@ class MarketDataETL:
             trades, quotes = self.extractor.extract(file_path)
             transformed_trades, transformed_quotes = self.transformer.transform(trades, quotes)
             self.loader.load(transformed_trades, transformed_quotes)
+
             self.bad_records.extend(self.extractor.bad_records)
-            self.bad_records.extend(self.transformer.bad_records)
 
         reporter = Reporter(self.loader.conn, self.logger, Config.OUTPUT_DIR)
         reporter.generate_transaction_cost_report(self.bad_records)
