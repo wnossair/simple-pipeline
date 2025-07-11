@@ -16,7 +16,7 @@ This project is a simple ETL (Extract, Transform, Load) pipeline designed to pro
 ## Requirements
 
 * Python 3.x
-* The libraries listed in `requirements.txt`. The primary dependency is `pandas`.
+* The libraries listed in `requirements.txt`. The primary dependency is `pandas` and `pydantic`.
 * Docker (for containerized execution)
 
 ## Setup and Installation
